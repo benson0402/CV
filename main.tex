@@ -1,0 +1,219 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage[normalem]{ulem}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}
+    \newline{#2}
+  }
+}
+
+\newcommand{\resumeItemWithoutScript}[1]{
+  \item\small{
+    \textbf{#1}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProject}[3]{
+  \vspace{-2pt}\item\small
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+    \end{tabular*}\vspace{-5pt}
+    \vspace{5pt}
+    \newline{#3}
+}
+
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+\newcommand{\resumeSubItemWithoutScript}[1]{\resumeItemWithoutScript{#1}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+\linespread{1.0}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Jui-Yu (Benson) Wang}} & Email: \href{mailto:}{benson930402@gmail.com}\\
+  \href{https://www.linkedin.com/in/benson0402/}{Linkedin: https://www.linkedin.com/in/benson0402/} & Mobile:~~~+886-908-927-168 \\
+  \href{https://github.com/benson0402}{Github: https://github.com/benson0402} \\
+\end{tabular*}
+
+\vspace{5pt}
+
+%-----------EDUCATION-----------------
+
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {National Yang Ming Chiao Tung University}{Hsinchu, Taiwan}
+    {B.S. in Computer Science}{Jul. 2022 - Present}
+    \vspace{2pt}
+    {\textit{ \footnotesize{\newline{}\textbf{Relevant Courses:} Linear Algebra, Data Structure and Object-Oriented Programming, Algorithm (Graduate Course), Probability, Competitive Programming, Computer Networks, Network Programming, System Administration, Intro. to AI, Computer Organization, Computer Security Capstone, Compiler Design, Advanced Programming in the UNIX Environment, Cloud Native Development: towards Best Practice, Cryptography Engineering}}}
+    % {\textit{ \footnotesize{\newline{}\textbf{Ongoing Courses:} }}}
+
+% , Discrete Math, Graph Theory Intro. to Formal Language,
+\resumeSubHeadingListEnd
+
+%-----------Experiences-----------------
+
+\section{Experiences}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {NYCU 2024-Spring Competitive Programming(I) Course}{}
+    {Teaching Assistant}{Feb. 2024 - Jun. 2024}
+    \vspace{1pt}
+    \newline{In this role, I contributed to creating challenging problems, developing test cases, and maintaining curriculum balance, thereby enhancing my skills in competitive programming, content creation, and collaborative education.}
+
+    \resumeSubheading
+    {NYCU 2024-Autumn Introduction to Algorithms Course}{}
+    {Teaching Assistant}{Sep. 2024 - Present}
+    \vspace{1pt}
+    \newline{In this role, I have contributed to the course by designing challenging problems, creating hands-on assignments, and providing support to students in understanding course material. My role also involves grading assignments, leading discussion sessions, and assisting with exam preparation.}
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+    \resumeProject
+    {Dungeon - Text-based User Interface Game (\textcolor{blue}{\uline{\href{https://github.com/benson0402/dungeon}{Repo}}})}
+    {C++, Object-Oriented Programming, Git}
+    {A midterm project for the Data Structures and Object-Oriented Programming course. This dungeon explorer game illustrates my proficiency in Object-Oriented Programming (OOP) principles, such as inheritance, polymorphism, and encapsulation. The project enhanced my skills in C++ and OOP, as well as in solving complex problems and designing large-scale programs.}
+
+    \resumeProject
+    {C General.io - Text-based User Interface Game (\textcolor{blue}{\uline{\href{https://github.com/freddy645645/C_generals}{Repo}}})}
+    {C/C++, Linux, Network Programming, Sockets, Git}
+    {The final project for the Introduction to Network Programming course. This terminal-based, multiplayer strategic game, inspired by a popular online game, showcases my skills in network programming, including TCP/IP socket programming, client-server architecture, and concurrent server management in C and C++. It demonstrates my capability in implementing complex game logic, managing multiple client connections, and ensuring data integrity through custom protocol design.}
+\resumeSubHeadingListEnd
+
+
+%-----------Awards-----------------
+
+\section{Awards}
+\resumeSubHeadingListStart
+
+% \resumeSubItemWithoutScript
+% {Finalist in the 2021 National High School Programming Contest: Rank 18 (Third Prize)}
+
+\resumeSubItemWithoutScript
+{NYCU 2022 Programming Contest New Student Contest: Rank 2}
+
+\resumeSubItemWithoutScript
+{The 2022 ICPC Asia Taoyuan Regional Programming Contest: Rank 22 (Silver Award)}
+
+\resumeSubItemWithoutScript
+{NYCU 2023 Programming Contest Annual Contest: Rank 4}
+
+\resumeSubItemWithoutScript
+{2023 National Collegiate Programming Contest: Rank 13 (Fourth Prize)}
+
+\resumeSubItemWithoutScript
+{2023 HP CodeWars University Group: Rank 1}
+
+\resumeSubItemWithoutScript
+{Fundamental Course Award:} Data Structure and Object-Oriented Programming, Introduction to Algorithm
+
+\resumeSubHeadingListEnd
+
+%-----------Extracurricular Activities-----------------
+
+\vspace{-5pt}
+\section{Extracurricular Activities}
+  \resumeSubHeadingListStart
+
+    \vspace{5pt}
+    
+    \resumeSubheading
+    {NYCU Programming Challenging Contest Association} { }
+    {Member}{Sep. 2022 - Present}
+    \vspace{2pt}
+    \newline
+    {As an participant in competitive programming contests, I have demonstrated strong analytical and problem-solving skills. My awards and contributions are documented in a GitHub \textcolor{blue}{\uline{\href{https://github.com/konchinshih/codebook}{repository}}}, serving as a codebook of algorithms and solutions developed or utilized in competitions. This experience has honed my proficiency in algorithms, data structures, and coding under pressure, showcasing my dedication to continuous learning and excellence in computer science.}
+    
+    % \resumeSubheading
+    % {2023 PCCA Winter Camp} {}
+    % {Problem Tester}{Feb. 2023}
+    % \vspace{2pt}
+    % \newline
+    % {In this role, I ensured the quality and fairness of competition problems. My responsibilities included verifying the accuracy of problem statements, testing the solvability of problems within given constraints, and maintaining a balanced difficulty level across the contest.}
+    
+    \resumeSubheading
+    {Information Group of NYCU Computer Science Student Association} { }
+    {Leader}{Sep. 2024 - Present}
+    \vspace{2pt}
+    \newline
+    {As a leader, I contribute to maintaining and updating our department's website, ensuring it provides up-to-date and relevant information for students and faculty. This role involves close collaboration with team members to enhance website functionality and user experience, utilizing technologies and tools hosted on our organization page.}
+
+    \resumeSubheading
+    {Kronos Research x NYCU SDC Quant. Training Program}{}
+    {Student}{Sep. 2024 - Present}
+    \vspace{1pt}
+    \newline{I am learning how to use APIs to trade with exchanges, process data, and construct basic trading strategies. In the future, I plan to learn how to develop Alpha models and implement taker and maker strategies.}
+
+\resumeSubHeadingListEnd
+
+\end{document}
